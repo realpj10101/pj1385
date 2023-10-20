@@ -1,0 +1,10 @@
+<div class="showPlayers">
+    <button mat-fab (click)="showAllPlayers()" mat-fab color="primary"></button>
+
+    <h1 *ngFor="let player of allPlayers">
+        {{player.id}}
+        <br>
+        {{player.email}}
+    </h1>
+
+</div>
